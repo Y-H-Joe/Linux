@@ -41,4 +41,7 @@ Switches:
 	+ initclear
 Comment
 
-##
+###查看当前工作路径
+pwd
+
+
