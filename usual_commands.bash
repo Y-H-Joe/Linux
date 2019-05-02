@@ -44,4 +44,6 @@ Comment
 ###查看当前工作路径
 pwd
 
+###根据关键词反向批量删除文件
+rm -r `ls | grep -v 'fastq'`
 
