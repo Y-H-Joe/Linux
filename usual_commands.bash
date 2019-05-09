@@ -78,3 +78,6 @@ conda install fastqc
 # conda会从从远程搜索scipy的相关信息和依赖项目，对于python 3.4，conda会同时安装numpy和mkl（运算加速的库）
 # 查看已经安装的packages
 conda list
+
+###alias
+alias mytop='top -u yihang'
