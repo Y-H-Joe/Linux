@@ -84,3 +84,6 @@ alias mytop='top -u yihang'
 
 ###软连接，前面是真的文件，后面是快捷方式。没有-s就是硬链接
 ln -s /home/yihang/.conda/envs/scRNA/bin/cutadapt cutadapt
+
+###find命令及不显示Permission denied
+find [path] -name "pattern " 2>/dev/null
